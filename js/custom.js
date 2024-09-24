@@ -28,6 +28,12 @@
 // Table of Contents End
 // ------------------------------------------------
 
+document.addEventListener('DOMContentLoaded', function () {
+  var video = document.getElementById('main-video');
+  video.play();
+});
+
+
 $(window).on("load", function() {
 
   "use strict";
